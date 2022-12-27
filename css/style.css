@@ -167,6 +167,12 @@ font-size: 16px;
 line-height: 20px;
 color: #FCA412;
 background: transparent;
+transition: 300ms ease;
+}
+.section2 button:hover{
+    background-color: #FCA412;
+    border: 0px;
+    color: white;
 }
 .section3{
     padding: 91px 0px 80px 0px;
