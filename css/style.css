@@ -13,8 +13,8 @@ a{
     max-width: 1170px !important;
 }
 header{
-    background-color:#15191F;
-    height: 648px;
+    background: url(../images/header-bg.jpg);
+    background-size: cover;
 }
 nav{
     padding: 22px 80px 23px 80px;
