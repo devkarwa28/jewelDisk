@@ -115,6 +115,16 @@ text-align: center;
 color: #15191F;
 margin-bottom: 24px;
 }
+.sec1-box h3{
+    font-family: var(--font2);
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 37px;
+text-align: center;
+letter-spacing: 0.01em;
+color: #15191F;
+}
 .sec1-box{
     padding: 39px 43px 47px 43px;
     border: 1px solid #EDEDED;
