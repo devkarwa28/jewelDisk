@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('../Ogg-Roman.ttf')
 :root{
+--font1: 'Outfit';
 }
 a{
     text-decoration: none;
@@ -34,7 +35,7 @@ nav ul li{
     margin: 0px 20px;
 }
 nav ul li a{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -79,7 +80,7 @@ border: 0px;
 margin-top: 59px;
 background: linear-gradient(128.54deg, #FFDF21 -63.12%, #FCA412 78.23%);
 border-radius: 4px;
-font-family: 'Outfit';
+font-family: var(--font1);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -91,7 +92,7 @@ color: #FFFFFF;
     padding-bottom: 79px;
 }
 .section1 h1{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -130,7 +131,7 @@ text-align: center;
     background-size: cover;
 }
 .section2 h1{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -149,7 +150,7 @@ color: #F8F8F8;
 margin-bottom: 16px;
 }
 .section2 p{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -162,7 +163,7 @@ margin-bottom: 31px;
 height: 52px;
 border: 1px solid #FCA412;
 border-radius: 4px;
-font-family: 'Outfit';
+font-family: var(--font1);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -183,7 +184,7 @@ transition: 300ms ease;
     padding-top: 88px;
 }
 .section3 h1{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -210,7 +211,7 @@ margin-bottom: 17px;
 height: 52px;
 border: 1px solid #FCA412;
 border-radius: 4px;
-font-family: 'Outfit';
+font-family: var(--font1);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -226,7 +227,7 @@ transition: 300ms ease;
     border: 0px;
 }
 .section3 p{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 300;
 font-size: 16px;
@@ -243,7 +244,7 @@ top: 30px;
     background-position: 530px 176px;
 }
 .section4 h1{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -278,7 +279,7 @@ margin: 0px 12px;
 margin-bottom: 38px;
 }
 .sec4-box h3{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 500;
 font-size: 15px;
@@ -295,7 +296,7 @@ margin-top: 14px;
 height: 52px;
 border: 1px solid #FCA412;
 border-radius: 4px;
-font-family: 'Outfit';
+font-family: var(--font1);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -315,7 +316,7 @@ transition: 300ms ease;
     padding: 48px 0px 94px 0px;
 }
 .section5 h1{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -344,7 +345,7 @@ margin-bottom: 30px;
     padding: 80px 0px;
 }
 .section6 h1{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -371,7 +372,7 @@ margin-bottom: 49px;
 border-radius: 16px;
 }
 .sec6-box h3{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -380,7 +381,7 @@ margin-bottom: 3px;
 color: #363636;
 }
 .sec6-box h4{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
@@ -388,7 +389,7 @@ line-height: 24px;
 color: rgba(54, 54, 54, 0.8);
 }
 .sec6-box p{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -413,7 +414,7 @@ margin-top: 13px;
     padding-top: 46px;
 }
 .sec7-content h1{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -433,7 +434,7 @@ color: #15191F;
 margin-bottom: 16px;
 }
 .sec7-content p{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -451,7 +452,7 @@ margin-bottom: 60px;
     padding: 80px 0px 132px 0px;
 }
 .section8 h1{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -476,7 +477,7 @@ margin-bottom: 26px;
     margin-left: 10px;
 }
 .sec8-box h3{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -486,7 +487,7 @@ margin-bottom: 0px;
 margin-right: 14px;
 }
 .sec8-box h4{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -504,7 +505,7 @@ line-height: 34px;
 color: #15191F;
 }
 .sec8-box a{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -520,7 +521,7 @@ footer{
     padding-left: 48px;
 }
 .footer-1 h1{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
@@ -531,7 +532,7 @@ color: #FFFFFF;
 margin-bottom: 0px;
 }
 .footer-1 a{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
@@ -554,7 +555,7 @@ margin-bottom: 17px;
     margin-top: -104px;
 }
 .footer-1 h3{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
@@ -571,7 +572,7 @@ margin-top: 33px;
     margin-bottom: 24px;
 }
 .footer-2 a{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
@@ -604,7 +605,7 @@ li{
     margin: auto 20px;
 }
 .footer-nav a{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -617,7 +618,7 @@ color: #FFFFFF;
     border-top: 1px solid #696969;
 }
 .disclaimer h1{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -632,7 +633,7 @@ margin-bottom: 0px;
     margin: 0px 6px;
 }
 .disclaimer h2{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -686,7 +687,7 @@ line-height: 73px;
 color: #FFFFFF;
 }
 .about-header-content h2{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -697,7 +698,7 @@ color: #FFFFFF;
     padding: 62px 0px 88px 0px;
 }
 .section1-about h1{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -719,7 +720,7 @@ color: #15191F;
 margin-bottom: 37px;
 }
 .section1-about p{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 300;
 font-size: 16px;
@@ -731,7 +732,7 @@ color: #363636;
 }
 .section1-about ul li{
 margin: 6px 0px;
-font-family: 'Outfit';
+font-family: var(--font1);
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -752,7 +753,7 @@ color: #363636;
     padding-top: 68px;
 }
 .about-sec2-content h1{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -772,7 +773,7 @@ color: #15191F;
 margin-bottom: 27px;
 }
 .about-sec2-content p{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 300;
 font-size: 16px;
@@ -783,7 +784,7 @@ color: #363636;
     padding: 65px 0px 137px 0px;
 }
 .section3-about h1{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -803,7 +804,7 @@ text-align: center;
 color: #15191F;
 }
 .section3-about h3{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -814,7 +815,7 @@ margin-top: 21px;
 margin-bottom: 8px;
 }
 .section3-about h4{
-    font-family: 'Outfit';
+    font-family: var(--font1);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
