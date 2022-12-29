@@ -24,7 +24,28 @@
                     <img src="images/logo.svg" alt="">
                 </a>
             </div>
-            <ul class="mb-0">
+            <button class="d-lg-none canvas-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              
+              <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+                  <button type="button" class="text-white" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-x"></i></button>
+                </div>
+                <div class="offcanvas-body w-75">
+                    <ul class="mb-0">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="">Feature</a></li>
+                        <li><a href="">Price</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                  
+                </div>
+              </div>
+            <ul class="mb-0  sm-none">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="aboutus.html">About</a></li>
                 <li><a href="">Feature</a></li>
@@ -33,6 +54,7 @@
                 <li><a href="">Contact Us</a></li>
             </ul>
         </nav>
+        
         <div class="header-content container">
             <div class="row">
                 <div class="col-lg-6">
@@ -47,7 +69,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <img src="images/header.png" alt="">
+                    <img src="images/header.png" alt="" class="img-fluid sm-none">
                 </div>
             </div>
         </div>
@@ -97,20 +119,21 @@
 
     <!-- Section 2  -->
     <section class="section2 container-fluid">
-        <div class="container d-flex">
+        <div class="container d-lg-flex">
             <div class="col-lg-7">
                 <h1>ABOUT US</h1>
                 <h2>About Jewel Disk</h2>
                 <p>
                     Jewel Disk App is the jeweler's most advanced smart directory app and a mini website builder station So take an affordable and easy step to manage your profile smartly. 
-                    <br>
-We are here to help you to make your profile and website; you just need to download the app, sign up, and edit your profile; then, this app provides you a DV card, and you automatically connect with the Indian jewelers' directory.
+                </p>
+                <p>
+                    We are here to help you to make your profile and website; you just need to download the app, sign up, and edit your profile; then, this app provides you a DV card, and you automatically connect with the Indian jewelers' directory.
                 </p>
                 <button>
                     Read More
                 </button>
             </div>
-            <img src="images/images.png" alt="">
+            <img src="images/images.png" alt="" class="img-fluid">
         </div>
     </section>
     <!-- Section 2 Ended -->
@@ -118,10 +141,10 @@ We are here to help you to make your profile and website; you just need to downl
     <!-- section 3 -->
     <section class="section3 container-fluid">
         <div class="container">
-            <div class="row">
+            <div class= "row flex-column-reverse flex-lg-row">
                 <div class="col-lg-6 position-relative">
-                    <img src="images/phone.png" alt="">
-                    <img src="images/phone-bg.png" alt="" class="sec3-img-bg position-absolute">
+                    <img src="images/phone.png" alt="" class="img-fluid">
+                    <img src="images/phone-bg.png" alt="" class="sec3-img-bg position-absolute img-fluid">
                 </div>
                 <div class="col-lg-6">
                     <div class="sec3-content">
@@ -150,28 +173,28 @@ We are here to help you to make your profile and website; you just need to downl
                 MAIN FEATURES
             </h1>
             <h2>Great Features</h2>
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center flex-wrap">
                 <div class="sec4-box">
                     <div class="text-center">
-                        <img src="images/call.svg" alt="">
+                        <img src="images/call.svg" alt="" >
                     </div>
                     <h3>Click to Call</h3>
                 </div>
                 <div class="sec4-box">
                     <div class="text-center">
-                        <img src="images/call.svg" alt="">
+                        <img src="images/call.svg" alt="" >
                     </div>
                     <h3>Click To Whatsapp</h3>
                 </div>
                 <div class="sec4-box">
                     <div class="text-center">
-                        <img src="images/email.svg" alt="">
+                        <img src="images/email.svg" alt="" >
                     </div>
                     <h3>Click To Email</h3>
                 </div>
                 <div class="sec4-box">
                     <div class="text-center">
-                        <img src="images/share.svg" alt="">
+                        <img src="images/share.svg" alt="" >
                     </div>
                     <h3>Share Links</h3>
                 </div>
@@ -188,7 +211,7 @@ We are here to help you to make your profile and website; you just need to downl
                     <h3>Click To Navigate</h3>
                 </div>
             </div>
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center flex-wrap">
                 <div class="sec4-box">
                     <div class="text-center">
                         <img src="images/industy.svg" alt="">
@@ -235,11 +258,11 @@ We are here to help you to make your profile and website; you just need to downl
             <h1 class="text-center">Profile Screenshots</h1>
             <h2 class="text-center">Profile & DV-Card</h2>
             <div class="sec5-slider d-flex justify-content-center">
-                <img src="images/sec5-1.png" alt="">
+                <img src="images/sec5-1.png" alt="" class="sm-none">
                 <img src="images/sec5-2.png" alt="">
-                <img src="images/sec5-3.png" alt="">
-                <img src="images/sec5-4.png" alt="">
-                <img src="images/sec5-5.png" alt="">
+                <img src="images/sec5-3.png" alt="" class="sm-none">
+                <img src="images/sec5-4.png" alt="" class="sm-none">
+                <img src="images/sec5-5.png" alt="" class="sm-none">
             </div>
         </div>
     </section>
@@ -309,7 +332,7 @@ We are here to help you to make your profile and website; you just need to downl
                         <p>
                             Lorem ipsum dolor sit amet consectetur. Ege tas eget non neque quis dui id morbi. Sagittis non augue amet gravida nulla. Adipiscing ipsum.
                         </p>
-                        <div class="d-flex">
+                        <div class="d-flex app-img">
                             <img src="images/applestore.svg" alt="" class="margin-10">
                             <img src="images/gogglestore.svg" alt="" class="m-l-45">
                             <img src="images/barcode.svg" alt="">
@@ -318,8 +341,8 @@ We are here to help you to make your profile and website; you just need to downl
                 </div>
                 <div class="col-lg-6 position-relative">
                     <div class="text-center phone-background">
-                        <img src="images/phone2.png" alt="">
-                        <img src="images/phone-bg2.png" alt="" class="sec7-img-bg position-absolute">
+                        <img src="images/phone2.png" alt="" class="img-fluid">
+                        <img src="images/phone-bg2.png" alt="" class="sec7-img-bg position-absolute sm-none">
                     </div>
                 </div>
             </div>
@@ -335,7 +358,7 @@ We are here to help you to make your profile and website; you just need to downl
             <div class="row">
                 <div class="col-lg-4">
                     <div class="sec8-box">
-                        <img src="images/sec8-1.png" alt="" class="mb-4">
+                        <img src="images/sec8-1.png" alt="" class="mb-4 img-fluid">
                         <div class="d-flex mb-2">
                             <h3>February 2, 2022</h3>
                             <img src="images/yellowdot.svg" alt="">
@@ -349,7 +372,7 @@ We are here to help you to make your profile and website; you just need to downl
                 </div>
                 <div class="col-lg-4">
                     <div class="sec8-box">
-                        <img src="images/sec8-2.png" alt="" class="mb-4">
+                        <img src="images/sec8-2.png" alt="" class="mb-4 img-fluid">
                         <div class="d-flex mb-2">
                             <h3>February 2, 2022</h3>
                             <img src="images/yellowdot.svg" alt="">
@@ -363,7 +386,7 @@ We are here to help you to make your profile and website; you just need to downl
                 </div>
                 <div class="col-lg-4">
                     <div class="sec8-box">
-                        <img src="images/sec8-3.png" alt="" class="mb-4">
+                        <img src="images/sec8-3.png" alt="" class="mb-4 img-fluid">
                         <div class="d-flex mb-2">
                             <h3>February 2, 2022</h3>
                             <img src="images/yellowdot.svg" alt="">
@@ -385,8 +408,8 @@ We are here to help you to make your profile and website; you just need to downl
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
-                    <img src="images/footer-1.png" alt="" class="m-t-55">
+                <div class="col-lg-4 text-center">
+                    <img src="images/footer-1.png" alt="" class="m-t-55 img-fluid">
                 </div>
                 <div class="col-lg-4">
                     <div class="footer-1">
@@ -426,7 +449,7 @@ Rajasthan 342602
 
                 </ul>
             </div>
-            <div class="disclaimer d-flex justify-content-between"> 
+            <div class="disclaimer d-lg-flex justify-content-between"> 
                 <h1>Copyright © 2022  <span>Jewel Disk</span>. All Rights Reserved.</h1>
                 <h2>Design and Development by - <a href="https://microclick.in/" target="_jkhj">MicroClick Pvt. Ltd.</a></h2>
             </div>
