@@ -24,7 +24,28 @@
                     <img src="images/logo.svg" alt="">
                 </a>
             </div>
-            <ul class="mb-0">
+            <button class="d-lg-none canvas-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              
+              <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+                  <button type="button" class="text-white" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-x"></i></button>
+                </div>
+                <div class="offcanvas-body w-75">
+                    <ul class="mb-0">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="">Feature</a></li>
+                        <li><a href="">Price</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                  
+                </div>
+              </div>
+            <ul class="mb-0 sm-none">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="aboutus.html">About</a></li>
                 <li><a href="">Feature</a></li>
@@ -49,22 +70,20 @@
             <h2>Welcome To Jewel Disk</h2>
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="images/about-sec1-1.png" alt="">
+                    <img src="images/about-sec1-1.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-6">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur. Ut metus non morbi dictum etiam id. Id sed purus pulvinar pharetra eu nullam urna risus. Ut et elit leo massa ipsum massa molestie urna tristique. Tellus sit vel metus eget vel. Aliquam bibendum ornare sed nunc. 
-
-
-
-
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur. Ut metus non morbi dictum etiam id. Id sed purus pulvinar pharetra eu nullam urna risus. Ut et elit leo massa ipsum massa molestie urna tristique. Tellus sit vel metus eget vel.
-                    </p>
-                    <p>
-                        Aliquam bibendum ornare sed nunc. Velit quis egestas tincidunt orci eu sed elementum urna tempus. Ut posuere interdum massa congue tincidunt rhoncus dignissim.
-                    </p>
+                    <div class="mt-sm-5">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Ut metus non morbi dictum etiam id. Id sed purus pulvinar pharetra eu nullam urna risus. Ut et elit leo massa ipsum massa molestie urna tristique. Tellus sit vel metus eget vel. Aliquam bibendum ornare sed nunc. 
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Ut metus non morbi dictum etiam id. Id sed purus pulvinar pharetra eu nullam urna risus. Ut et elit leo massa ipsum massa molestie urna tristique. Tellus sit vel metus eget vel.
+                        </p>
+                        <p>
+                            Aliquam bibendum ornare sed nunc. Velit quis egestas tincidunt orci eu sed elementum urna tempus. Ut posuere interdum massa congue tincidunt rhoncus dignissim.
+                        </p>
+                    </div>
                     <ul class="p-0">
                         <li> <img src="images/yellowdot.svg" alt=""> Lorem ipsum dolor sit amet consectetur.</li>
                         <li><img src="images/yellowdot.svg" alt="">Lorem ipsum dolor sit amet consectetur.</li>
@@ -97,7 +116,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 text">
-                    <img src="images/about-sec2-1.png" alt="">
+                    <img src="images/about-sec2-1.png" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -111,19 +130,25 @@
             <h2>Out Supporter</h2>
             <div class="row">
                 <div class="col-lg-4">
-                    <img src="images/about-sec3-1.png" alt="">
+                   <div class="about-sec3-box">
+                    <img src="images/about-sec3-1.png" alt="" class="img-fluid">
                     <h3>Gajendra Singh Shekhawat</h3>
                     <h4>Minister of Jal Shakti</h4>
+                   </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="images/about-sec3-2.png" alt="">
+                    <div class="about-sec3-box">
+                        <img src="images/about-sec3-2.png" alt="" class="img-fluid">
                     <h3>BL Soni</h3>
                     <h4>DGP Rajasthan</h4>
+                    </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="images/about-sec3-1.png" alt="">
+                    <div class="about-sec3-box">
+                        <img src="images/about-sec3-1.png" alt="" class="img-fluid">
                     <h3>Kamal Soni</h3>
                     <h4>President of Jeweller Association Delhi</h4>
+                    </div>
                 </div>
             </div>
         </div>
@@ -138,7 +163,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <img src="images/footer-1.png" alt="" class="m-t-55">
+                    <img src="images/footer-1.png" alt="" class="m-t-55 img-fluid">
                 </div>
                 <div class="col-lg-4">
                     <div class="footer-1">
@@ -178,7 +203,7 @@ Rajasthan 342602
 
                 </ul>
             </div>
-            <div class="disclaimer d-flex justify-content-between"> 
+            <div class="disclaimer d-lg-flex justify-content-between"> 
                 <h1>Copyright © 2022  <span>Jewel Disk</span>. All Rights Reserved.</h1>
                 <h2>Design and Development by - <a href="https://microclick.in/" target="_jkhj">MicroClick Pvt. Ltd.</a></h2>
             </div>
