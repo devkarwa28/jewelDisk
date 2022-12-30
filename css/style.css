@@ -151,7 +151,7 @@ nav ul li a:hover {
 }
 
 .sec1-box:hover {
-    border-bottom: 5px solid #FFDF21;
+    border-bottom: 5px solid #FFDF21 inset;
 }
 
 .sec1-box img {
