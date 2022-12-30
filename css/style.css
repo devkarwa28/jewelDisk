@@ -22,8 +22,9 @@ a {
 }
 
 .home {
-    background: url(../images/header-bg.jpg);
+    background: url(../images/header-bg.jpg)no-repeat center;
     background-size: cover;
+    height: 648px;
 }
 
 nav {
@@ -57,11 +58,6 @@ nav ul li a {
 nav ul li a:hover {
     color: #FFDF21;
 }
-
-.header-content img {
-    height: 100%;
-}
-
 .header-content-main {
     padding-top: 180px;
 }
@@ -950,7 +946,13 @@ nav ul li a {
     .sm-none {
         display: none;
     }
-
+    .sm-center{
+        display: grid;
+        justify-content: center;
+    }
+    .home{
+        background-image: url(../images/header-bg2.jpg);
+    }
     nav {
         padding: 14px 12px 23px 15px;
         opacity: 1;
