@@ -284,8 +284,7 @@ nav ul li a:hover {
 }
 .section4 {
     padding: 80px 0px;
-    background: url(../images/blog.png)no-repeat;
-    background-position: 530px 176px;
+    background: url(../images/blog.png)no-repeat center;
 }
 
 .section4 h1 {
@@ -1166,4 +1165,77 @@ color: white;
     .about-sec3-box{
         margin-bottom: 24px;
     }
+}
+@media only screen and (min-width: 576px) and (max-width: 992px){
+.md-none{
+    display: none;
+}
+.md-center{
+    display: grid;
+    justify-content: center;
+}
+nav {
+    padding: 14px 15px 23px 15px;
+    opacity: 1;
+}
+nav button {
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    font-size: 22px;
+}
+nav ul{
+    display: block;
+}
+nav li{
+    margin: 15px 0px !important;
+}
+nav ul li a{
+    font-size: 18px;
+}
+.offcanvas{
+    background: url(../images/footer-bg.png)no-repeat #1A1A1A;
+    background-position-y: -100px;
+}
+.offcanvas-header{
+    font-family: var(--font1);
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 73px;
+padding-bottom: 0px;
+text-align: center;
+color: white;
+  }
+  .offcanvas-header button{
+    width: fit-content;
+    height: 40px;
+  }
+  .offcanvas-body {
+    padding-top: 0px;
+  }
+  .sec1-box {
+    margin-bottom: 24px;
+  }
+  .sec6-box {
+    margin-bottom: 24px;
+  }
+  .sec8-box{
+    margin-bottom: 24px;
+  }
+  .footer-nav ul {
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .footer-2 ul {
+    padding-left: 0px;
+  }
+  .disclaimer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .footer-nav {
+    margin-top: 36px;
+    margin-bottom: 26px;
+  }
 }
