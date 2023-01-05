@@ -18,7 +18,7 @@ a {
 }
 
 .container {
-    max-width: 1194px !important;
+    max-width: 1194px;
 }
 
 .home {
@@ -90,14 +90,21 @@ nav ul li a:hover {
     height: 52px;
     border: 0px;
     margin-top: 59px;
-    background: linear-gradient(128.54deg, #FFDF21 -63.12%, #FCA412 78.23%);
+    background: transparent;
     border-radius: 4px;
     font-family: var(--font1);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    color: #FFFFFF;
+    border: 1px solid #FCA412;
+    color: #FCA412;
+    transition: 300ms ease;
+}
+.header-content-main button:hover
+{
+    background: linear-gradient(128.54deg, #FFDF21 -63.12%, #FCA412 78.23%);
+    color: white;
 }
 
 .section1 {
@@ -208,7 +215,7 @@ nav ul li a:hover {
 }
 
 .section2 button:hover {
-    background-color: #FCA412;
+    background: linear-gradient(128.54deg, #FFDF21 -63.12%, #FCA412 78.23%);
     border: 0px;
     color: white;
 }
@@ -260,7 +267,7 @@ nav ul li a:hover {
 
 .section3 button:hover {
     color: white;
-    background-color: #FCA412;
+    background: linear-gradient(128.54deg, #FFDF21 -63.12%, #FCA412 78.23%);
     border: 0px;
 }
 
@@ -350,7 +357,7 @@ nav ul li a:hover {
 }
 
 .section4 button:hover {
-    background-color: #FCA412;
+    background: linear-gradient(128.54deg, #FFDF21 -63.12%, #FCA412 78.23%);
     color: white;
     border: 0px;
 }
@@ -1241,6 +1248,9 @@ color: white;
 @media only screen and (min-width: 992px) and (max-width: 1350px){
     nav {
         padding: 23px 25px 23px 25px;
+    }
+    .app-img img{
+        width: 140px;
     }
     .lg-none{
         display: none;
