@@ -1256,4 +1256,7 @@ color: white;
         display: none;
     }
 }
+body::selection{
+    background-color: #FFDF21;
+}
 
