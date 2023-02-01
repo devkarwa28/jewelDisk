@@ -1236,8 +1236,6 @@ marquee {
 
 .profile-view-btn3 {
     padding: 10px 20px;
-    width: 110px;
-    height: 44px;
     background: rgba(252, 164, 18, 0.1);
     border-radius: 6px;
     border: 0px;
@@ -2129,6 +2127,24 @@ text-align: center;
     .directory {
         margin-top: 35px;
         padding-bottom: 130px;
+    }
+    /* PROFILE SM DEVICE */
+    .profile {
+        padding: 80px 0px 80px 0px;
+    }
+    .profile-header-content .img1{
+        width: 125px;
+        height: 125px;
+    }
+    .profile-header-heading {
+        font-size: 60px;
+        line-height: 62px;
+    }
+    .profile-card {
+        padding: 15px 0px 15px 10px;
+    }
+    .profile-card-content{
+        margin-left: 0px;
     }
 }
 
