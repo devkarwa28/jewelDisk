@@ -1430,6 +1430,91 @@ line-height: 24px;
 letter-spacing: -0.003em;
 color: #132F3A;
 }
+.section5-profile{
+    padding: 149px 0px 83px 0px;
+}
+.section5-profile h1{
+    font-family: var(--font1);
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+color: #15191F;
+margin-bottom: 29px;
+}
+.section5-profile form{
+    background: #FFFFFF;
+border: 1px solid #EDEDED;
+box-shadow: 0px 4px 20px rgba(166, 169, 173, 0.2);
+border-radius: 8px;
+padding: 34px 31px 29px 32px;
+}
+.section5-profile img{
+    height: 572px;
+}
+.input-row{
+    margin-bottom: 22px;
+}
+.input-row label{
+    display: block;
+    font-family: var(--font1);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #344054;
+margin-bottom: 6px;
+}
+.input-row input{
+    background: #FFFFFF;
+border: 1px solid #CCCCCC;
+box-shadow: 0px 1px 2px rgba(19, 47, 58, 0.05);
+border-radius: 5px;
+width: 100%;
+padding: 11px 15px;
+font-family: var(--font1);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #556B74;
+outline: none;
+}
+.input-row input,textarea::placeholder{
+    font-family: var(--font1);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #556B74;
+}
+.input-row textarea{
+    background: #FFFFFF;
+border: 1px solid #CCCCCC;
+box-shadow: 0px 1px 2px rgba(19, 47, 58, 0.05);
+border-radius: 5px;
+width: 100%;
+outline: none;
+padding: 11px 15px;
+font-family: var(--font1);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #556B74;
+}
+.section5-profile form button{
+    padding: 11px 24px;
+background: linear-gradient(138.58deg, #FFDF21 -52.74%, #FCAE14 45.77%, #FCA412 93.2%);
+border-radius: 6px;
+border: 0px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
 /*----------------------------------- profile ended ---------------------------*/
 
 
