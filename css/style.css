@@ -1120,7 +1120,7 @@ nav ul li a {
 }
 
 /* profile */
-.profile {
+.profile2{
     background: url(../images/profile-header.jpg);
     padding: 158px 0px 129px 0px;
 }
@@ -1970,7 +1970,7 @@ form button {
     }
 
     .app-img img {
-        width: 100px;
+        width: 90px;
     }
 
     .sec7-content {
@@ -2140,7 +2140,7 @@ form button {
     }
 
     /* PROFILE SM DEVICE */
-    .profile {
+    .profile2{
         padding: 80px 0px 80px 0px;
     }
 
