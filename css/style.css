@@ -432,7 +432,6 @@ nav ul li a:hover {
     padding: 28px 18px 20px 22px;
     border: 1px solid #EDEDED;
     border-radius: 16px;
-    height: 100%;
 }
 
 .sec6-box h3 {
@@ -2337,7 +2336,7 @@ margin-bottom: 18px;
     }
 
     nav {
-        padding: 14px 15px 23px 15px;
+        padding: 14px 15px 14px 15px;
         opacity: 1;
     }
 
@@ -2419,7 +2418,23 @@ margin-bottom: 18px;
     .about-sec3-box {
         margin-bottom: 24px;
     }
+    /* profile Md started */
+    .profile2 {
+        background: url(../images/profile-header.jpg);
+        padding: 100px 0px 100px 0px;
+    }
+    .section1-profile h1 {
+        text-align: center;
+    }
+    .profile-card {
+        margin-bottom: 28px;
+    }
+    .section2-profile img,.section3-profile img{
+        width: 100%;
+        margin-bottom: 24px;
+    }
 }
+
 
 @media only screen and (min-width: 992px) and (max-width: 1350px) {
     nav {
