@@ -1704,73 +1704,83 @@ form button {
 .footer2-2 a:hover {
     color: #FCAE14;
 }
-.input-groups input{
+
+.input-groups input {
     width: 78%;
     padding: 12px 14px;
     border: 1px solid #CCCCCC;
     border-right: 0px;
-box-shadow: 0px 1px 2px rgba(19, 47, 58, 0.05);
-outline: none;
-border-radius: 5px 0px 0px 5px;
+    box-shadow: 0px 1px 2px rgba(19, 47, 58, 0.05);
+    outline: none;
+    border-radius: 5px 0px 0px 5px;
 }
-.input-groups button{
+
+.input-groups button {
     padding: 12px 10px;
     font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 20px;
-background: #FFF6E8;
-border: 1px solid #FCA412;
-border-radius: 0px 5px 5px 0px;
-color: #344054;
-border-left: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    background: #FFF6E8;
+    border: 1px solid #FCA412;
+    border-radius: 0px 5px 5px 0px;
+    color: #344054;
+    border-left: 0px;
 }
-.share-btn button img{
+
+.share-btn button img {
     margin-right: 6px;
 }
-.share-btn button{
+
+.share-btn button {
     padding: 8px 10px;
-background: rgba(252, 164, 18, 0.1);
-border-radius: 6px;
-border: 0px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: -0.003em;
-color: #FCA412;
-margin-top: 29px;
+    background: rgba(252, 164, 18, 0.1);
+    border-radius: 6px;
+    border: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.003em;
+    color: #FCA412;
+    margin-top: 29px;
 }
-.social-media{
+
+.social-media {
     margin-top: 39px;
 }
-.social-media h5{
+
+.social-media h5 {
     font-family: var(--font1);
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 36px;
-color: #FFFFFF;
-margin-bottom: 14px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
 }
-.social-media img{
+
+.social-media img {
     margin-right: 24px;
 }
-.disclaimer2{
+
+.disclaimer2 {
     background: #272727;
     padding: 24px 0px;
 }
-.disclaimer2 h1{
+
+.disclaimer2 h1 {
     font-family: var(--font1);
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-color: #FFFFFF;
-text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
 }
+
 /*----------------------------------- profile ended ---------------------------*/
 
 
@@ -2128,37 +2138,192 @@ text-align: center;
         margin-top: 35px;
         padding-bottom: 130px;
     }
+
     /* PROFILE SM DEVICE */
     .profile {
         padding: 80px 0px 80px 0px;
     }
-    .profile-header-content .img1{
+
+    .profile-header-content .img1 {
         width: 125px;
         height: 125px;
     }
+
     .profile-header-heading {
         font-size: 60px;
         line-height: 62px;
     }
+
     .profile-card {
         padding: 15px 0px 15px 10px;
     }
-    .profile-card-content{
+
+    .profile-card-content {
         margin-left: 0px;
     }
+
     marquee {
         padding: 5px 0px;
         font-size: 14px;
     }
+
+    .section1-profile {
+        padding: 40px 0px 50px 0px;
+    }
+
     .section1-profile h1 {
         text-align: center;
         font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 18px !important;
+    }
+
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+    }
+
+    .profile-card {
+        height: fit-content;
+    }
+
+    .profile-card-content {
+        padding-top: 16px;
+    }
+    .profile-aboutus{
+        margin-top: 32px;
+    }
+    .type{
+        margin-bottom: 32px;
+    }
+    .section1-profile p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .section2-profile {
+        padding-bottom: 40px;
+      }
+    .section2-profile img{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .view-all-btn {
+        padding: 11px;
+        margin-top: 12px;
+        font-size: 14px;
+    }
+    .section3-profile img{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .section3-profile h1,.section2-profile h1 {
+        font-size: 32px;
+        line-height: 34px;
+    }
+    .main-detail {
+        padding-left: 0px;
+        margin-bottom: 24px;
+        text-align: center;
+      }
+      .bank-detail-box {
+        margin-bottom: 32px;
+      }
+      .upi-detail {
+        margin-top: 22px;
+      }
+      .section4-profile {
+        padding: 40px 0px 50px 0px;
+      }
+      .section4-profile h1 {
+        text-align: center;
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 18px;
+      }
+      .section5-profile {
+        padding: 70px 0px 70px 0px;
+      }
+      .section5-profile form {
+        padding: 34px 18px 29px 18px;
+      }
+      .map{
+        margin-top: 32px;
+      }
+      .section5-profile h1{
+        text-align: center;
+font-size: 26px;
 line-height: 32px;
-margin-bottom: 18px !important;
-    }
-    .profile-pic{
-        width: 100px;
-    }
+margin-bottom: 18px;
+      }
+      .section6-profile {
+        padding-bottom: 60px;
+      }
+      .section6-profile h1 {
+        font-size: 26px;
+        line-height: 32px;
+        text-align: center;
+        margin-bottom: 18px;
+      }
+      .section6-profile form{
+        margin-bottom: 32px;
+      }
+      .total-review-box {
+        justify-content: center;
+        padding: 10px;
+        text-align: center;
+      }
+      .review{
+        margin-bottom: 10px;
+      }
+      .review p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .visting-card img{
+        width: 100%;
+      }
+      .footer2 h1 {
+        font-size: 22px;
+        line-height: 34px;
+        margin-bottom: 16px;
+        text-align: center;
+      }
+      .footer2-2{
+        margin-top: 32px;
+      }
+      .footer2-3{
+        margin-top: 32px;
+      }
+      .input-groups button {
+        padding: 6px 8px;
+      }
+      .input-groups input {
+        padding: 6px 14px;
+      }
+      .share-btn button {
+        margin-top: 18px;
+      }
+      .social-media {
+        margin-top: 24px;
+        text-align: center;
+      }
+      .social-media img {
+        margin-right: 16px;
+        width: 40px;
+      }
+      .footer2 {
+        padding-top: 40px;
+        padding-bottom: 50px;
+      }
+      .disclaimer2 {
+        padding: 18px 0px;
+      }
+      .disclaimer2 h1 {
+        margin-bottom: 0px;
+        font-size: 14px;
+        line-height: 22px;
+      }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 992px) {
