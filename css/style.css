@@ -2433,6 +2433,75 @@ margin-bottom: 18px;
         width: 100%;
         margin-bottom: 24px;
     }
+    .section4-profile h1 {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 26px;
+        text-align: center;
+      }
+      .bank-detail-box {
+        text-align: center;
+      }
+      .main-detail {
+        padding-left: 0px;
+      }
+      .section5-profile {
+        padding: 80px 0px 80px 0px;
+      }
+      .section5-profile h1 {
+        text-align: center;
+        margin-bottom: 22px;
+      }
+      .map{
+        margin-top: 32px;
+      }
+      .section6-profile {
+        padding-bottom: 70px;
+      }
+      .section6-profile h1 {
+        text-align: center;
+        margin-bottom: 22px;
+      }
+      .section6-profile form{
+        margin-bottom: 32px;
+      }
+      .review {
+        padding: 16px 24px;
+      }
+      .footer2 h1 {
+        text-align: center;
+      }
+      .visting-card{
+        text-align: center;
+      }
+      .footer2-3{
+        margin-top: 32px;
+      }
+      .social-media {
+        margin-top: 0px;
+      }
+      .share-btn button {
+        margin-top: 18px;
+      }
+      .input-groups input {
+        width: auto;
+        padding: 8px 14px;
+      }
+      .social-media h5 {
+        text-align: center;
+        line-height: 26px;
+      }
+      .footer2 {
+        padding-top: 40px;
+        padding-bottom: 50px;
+      }
+      .disclaimer2 {
+        padding: 14px 0px;
+      }
+      .disclaimer2 h1 {
+        margin-bottom: 0px;
+      }
+
 }
 
 
@@ -2448,6 +2517,55 @@ margin-bottom: 18px;
     .lg-none {
         display: none;
     }
+    .profile-card {
+        padding: 20px 0px 33px 12px;
+    }
+    .profile-pic{
+        width: 100%;
+    }
+    .profile-card-content {
+        margin-left: 0px;
+    }
+    .profile-view-btn3 {
+        padding: 10px 12px;
+        font-size: 14px;
+        margin-right: 6px;
+    }
+    .section2-profile {
+        padding-bottom: 50px;
+    }
+    .section3-profile {
+        padding-bottom: 40px;
+    }
+    .section2-profile img ,.section3-profile img{
+        width: 100%;
+    }
+    .section3-profile h1 ,.section2-profile h1 {
+        margin-bottom: 22px;
+    }
+    .section5-profile {
+        padding: 80px 0px 80px 0px;
+    }
+    .section5-profile form {
+        padding: 34px 22px 29px 22px;
+    }
+    .visting-card{
+        text-align: center;
+    }
+    .footer2 h1 {
+        text-align: center;
+      }
+      .social-media {
+        text-align: center;
+        margin-top: 0px;
+      }
+      .input-groups input {
+        width: auto;
+      }
+      .footer2 {
+        padding-top: 40px;
+        padding-bottom: 70px;
+      }
 }
 
 body::selection {
