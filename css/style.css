@@ -2404,7 +2404,9 @@ margin-bottom: 18px;
     .footer-2 ul {
         padding-left: 0px;
     }
-
+    .profile-aboutus{
+        padding: 0px 50px;
+    }
     .disclaimer {
         padding-top: 20px;
         padding-bottom: 20px;
