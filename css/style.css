@@ -1781,7 +1781,14 @@ form button {
 }
 
 /*----------------------------------- profile ended ---------------------------*/
-
+.social-media2{
+    height: fit-content;
+margin: auto 0px;
+margin-left: 75px;
+}
+.social-media2 img{
+    margin: 0px 8px;
+}
 
 
 
